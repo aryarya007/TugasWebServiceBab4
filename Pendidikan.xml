@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pendidikan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Pendidikan.xsd">
+	<Mahasiswa>
+		<DataDiri>
+			<NPM>1154075</NPM>
+			<Nama>Arya</Nama>
+			<JK>Pria</JK>
+			<Alamat>Sarijadi</Alamat>
+			<AsalDaerah>Tarutung</AsalDaerah>
+			<Usia>20 Tahun</Usia>
+			<Agama>Islam</Agama>
+			<E-mail>arya.mohammad00@gmail.com</E-mail>
+		</DataDiri>
+		<Studi>
+			<Jurusan>Teknik Informatika</Jurusan>
+			<Prodi>D4</Prodi>
+		</Studi>
+	</Mahasiswa>
+	
+	<Mahasiswa>
+		<DataDiri>
+			<NPM>1154024</NPM>
+			<Nama>Adam</Nama>
+			<JK>Pria</JK>
+			<Alamat>Sarijadi</Alamat>
+			<AsalDaerah>Salatiga</AsalDaerah>
+			<Usia>20 Tahun</Usia>
+			<Agama>Islam</Agama>
+			<E-mail>adam.mohammad00@gmail.com</E-mail>
+		</DataDiri>
+		<Studi>
+			<Jurusan>Teknik Informatika</Jurusan>
+			<Prodi>D4</Prodi>
+		</Studi>
+	</Mahasiswa>
+	
+	<Mahasiswa>
+		<DataDiri>
+			<NPM>1154094</NPM>
+			<Nama>Akbar</Nama>
+			<JK>Pria</JK>
+			<Alamat>Sarijadi</Alamat>
+			<AsalDaerah>Sinjai</AsalDaerah>
+			<Usia>20 Tahun</Usia>
+			<Agama>Islam</Agama>
+			<E-mail>akbar.mohammad00@gmail.com</E-mail>
+		</DataDiri>
+		<Studi>
+			<Jurusan>Teknik Informatika</Jurusan>
+			<Prodi>D4</Prodi>
+		</Studi>
+	</Mahasiswa>
+	
+	<Mahasiswa>
+		<DataDiri>
+			<NPM>1154068</NPM>
+			<Nama>Julham</Nama>
+			<JK>Pria</JK>
+			<Alamat>Sarijadi</Alamat>
+			<AsalDaerah>Tarutung</AsalDaerah>
+			<Usia>20 Tahun</Usia>
+			<Agama>Islam</Agama>
+			<E-mail>arya.mohammad00@gmail.com</E-mail>
+		</DataDiri>
+		<Studi>
+			<Jurusan>Teknik Informatika</Jurusan>
+			<Prodi>D4</Prodi>
+		</Studi>
+	</Mahasiswa>
+	
+	<Mahasiswa>
+		<DataDiri>
+			<NPM>1154074</NPM>
+			<Nama>Tito</Nama>
+			<JK>Pria</JK>
+			<Alamat>Sarijadi</Alamat>
+			<AsalDaerah>Depok</AsalDaerah>
+			<Usia>20 Tahun</Usia>
+			<Agama>Islam</Agama>
+			<E-mail>tito.mohammad00@gmail.com</E-mail>
+		</DataDiri>
+		<Studi>
+			<Jurusan>Teknik Informatika</Jurusan>
+			<Prodi>D4</Prodi>
+		</Studi>
+	</Mahasiswa>
+</Pendidikan>

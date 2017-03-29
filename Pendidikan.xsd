@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="Pendidikan">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="Mahasiswa"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Mahasiswa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="DataDiri"/>
+                <xs:element ref="Studi"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DataDiri">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="NPM" minOccurs="1"/>
+                <xs:element ref="Nama"/>
+                <xs:element ref="JK"/>
+                <xs:element ref="Alamat"/>
+                <xs:element ref="AsalDaerah"/>
+                <xs:element ref="Usia"/>
+                <xs:element ref="Agama"/>
+                <xs:element ref="E-mail"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="NPM" type="xs:integer"/>
+    <xs:element name="Nama" type="xs:NCName"/>
+    <xs:element name="JK">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:NCName">
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="Alamat" type="xs:NCName"/>
+    <xs:element name="AsalDaerah" type="xs:NCName"/>
+    <xs:element name="Usia" type="xs:string"/>
+    <xs:element name="Agama" type="xs:NCName"/>
+    <xs:element name="E-mail">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+    			<xs:pattern
+    				value="([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})">
+    			</xs:pattern>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="Studi">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Jurusan"/>
+                <xs:element ref="Prodi"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Jurusan" type="xs:string"/>
+    <xs:element name="Prodi" type="xs:NCName"/>
+</xs:schema>
